@@ -1,2 +1,2 @@
 # 100-projects
-Just some tinkering :) 
+Just some tinkering!
