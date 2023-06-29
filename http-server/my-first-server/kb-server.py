@@ -22,7 +22,7 @@ server.listen(5)
 # in an endless loop until server is terminated..
 while True:
     
-    # accept() returns a connection socket we can use to talk to that client and the address of the client
+    # accept() returns a connection socket we can use to talk to the client and the address of the client
     # note: we do not use the server socket to talk to the client! the server socket is simply for accepting new connections
     communication_socket, address = server.accept()
     
